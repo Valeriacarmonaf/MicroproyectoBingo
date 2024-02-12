@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(150deg,rgba(227, 128, 128, 0.5), rgba(218, 167, 219, 0.5));
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.oculto {
+    display: none;
+}
+table#4cartones.oculto {
+    display: none;
+    
+  }
+  
+
+.mostrar {
+    display: table;
+}
+
+.marcado{
+
+    background-color:chartreuse
+}
+
+#carton1{
+    margin: 0 auto;
+    width: 20%;
+    height: 50%;
+    background-color: hwb(342 21% 5%);
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#resetear{
+    margin: 0 auto;
+    width: 20%;
+    height: 50%;
+    background-color: hwb(342 21% 5%);
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+#ir_a_menu{
+    margin: 0 auto;
+    width: 20%;
+    height: 50%;
+    background-color: hwb(342 21% 5%);
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+    
+}
+
+#botonSiguiente{
+    margin: 0 auto;
+    width: 20%;
+    height: 50%;
+    background-color: hwb(342 21% 5%);
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+
+}
+
+#quedan{
+    margin: 0 auto;
+    width: 20%;
+    height: 50%;
+    background-color: hwb(342 21% 5%);
+    color: white;
+    font-weight: bold;
+    font-size:x-large;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#numeroMostrado{
+
+    margin: 0 auto;
+    width: 20%;
+    height: 50%;
+    background-color:rgb(255, 230, 0);
+    color: black;
+    font-weight: bold;
+    font-size:x-large;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+
+}
+
+

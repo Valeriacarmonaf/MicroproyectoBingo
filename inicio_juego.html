@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO</title>
+    <script src="functions.js"></script>
+    <link rel="stylesheet" href="stylesheetIJ.css">
+    <link rel="icon" type="images/.png" href="images/icon1.png">
+
+</head>
+<body>
+    <div class="logo">
+        <img src="images/BinGuelitas2.jpg" height="200">
+    </div>
+
+
+
+        <!--<button id="generarNum" onclick="generarNumerosAleatorios()">Generar números</button>-->
+    <button id="carton1" onclick="generar4Cartones()">Generar Cartones</button>
+    <button id="resetear" onclick="location.href='inicio_juego.html'">Volver a empezar</button>
+    <button id= "ir_a_menu" onclick="location.href='index.html'">Menú Principal</button>
+    <div id="numeroMostrado"></div>
+    
+
+    <br><br>
+    <div id="espacioCartones">
+        <table id="4cartones" class="oculto" border="1" >
+            <th></th><th></th><th></th><th></th><th></th>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </table>
+    </div>
+    
+    <span id="quedan">25</span>
+    <button id="botonSiguiente" onclick="mostrarSiguienteNumero()">Siguiente Número</button>
+
+    
+    
+</body>
+</html>

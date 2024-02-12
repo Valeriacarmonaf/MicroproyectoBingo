@@ -5,53 +5,43 @@ body{
     padding: 0;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-}
-
-.menu{
+#cant_jugadores{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 5%;
-    background: rgb(0, 0, 0);
-    margin-top: 5%;
+    color: hwb(342 21% 5%);
+    font-size:xx-large;
+    font-weight: bold;
+    min-height: 10%;
+    background-color: rgb(225, 197, 211);
+    margin-top: 10%;
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 10%;
     border-radius: 5px;
-    
 }
 
-.menu h1{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    text-align: center;
-}
-.menu button{
+button{
     justify-content: center;
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5% 5%;
     border: none;
-    width: 75%;
+    width: 30%;
+    height: 15%;
     background: hwb(342 21% 5%);
     color: rgb(249, 249, 249);
     border-radius: 15px;
     cursor: hover;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
-}
+}  
+button:hover{
+    background: hwb(112 21% 10%);
 
-.menu button:hover{
-    background: hwb(342 21% 10%);
-    color: rgb(255, 249, 171);
+}
+input{
+    margin-top: 2%;
 }

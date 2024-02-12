@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preJuego</title>
+    <link rel="stylesheet" href="stylesheetJuego.css">
+    <script src="functions.js"></script>
+    <link rel="icon" type="images/.png" href="images/icon1.png">
+</head>
+<body>
+    <form id="cant_jugadores" class="cant_jugadores" onsubmit="myfunc(event)">
+        <br>
+        <label for="tamañoCarton">Tamaño del cartón: </label>  
+        <select id="tamañoCarton" name="tamañoCarton" required>
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+        </select>
+        <br>
+        <label for="Jugador1">Jugador 1: </label>
+        <input type="text" id="Jugador1" name="Jugador1" placeholder="Angelina Jolie" required ><br>
+        <label for="Jugador2">Jugador 2: </label>
+        <input type="text" id="Jugador2" name="Jugador2" required placeholder="Taylor Swift"><br>
+        <label for="Jugador3">Jugador 3: </label>
+        <input type="text" id="Jugador3" name="Jugador3" required placeholder="Cristiano Ronaldo"><br>
+        <label for="Jugador4">Jugador 4: </label>
+        <input type="text" id="Jugador4" name="Jugador4" required placeholder="Messi"><br>
+        <button type="submit" form="cant_jugadores" value="Submit" onclick="location.href='inicio_juego.html'">¡Listo!</button>
+    </form>
+    <div class="li">
+    </div>
+</body>
+</html>
